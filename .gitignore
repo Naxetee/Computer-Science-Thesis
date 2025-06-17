@@ -176,4 +176,8 @@ cython_debug/
 # Directories that should not be included in the package
 Memoria/
 testing/
-data/
+data/adults/anonymized/
+data/adults/old/
+data/adults/preprocessed/
+data/adults/results/anonymization/
+data/adults/results/usability/
