@@ -82,6 +82,7 @@ Archivos `.ipynb` con la comparativa de resultados de los modelos de anonimizaci
 ### Anonimización
 
 #### **./PyARXaaS/qids_selection.py**
+
 Selecciona combinaciones de quasi-identificadores (QIDs) y ejecuta la anonimización de un dataset usando *PyARXaaS* con los modelos de privacidad especificados (*k-anonymity*, *l-diversity*, *t-closeness*). Permite definir atributos sensibles, obligatorios y no sensibles, el número máximo de QIDs, y exporta los resultados y datasets anonimizados. Es el núcleo de la selección de QIDs y la ejecución de la anonimización.
 
 **Comando de uso:**
@@ -105,7 +106,9 @@ python PyARXaaS/qids_selection.py \
 - Ajusta los argumentos según tus necesidades (atributos, rutas, modelos, etc.).
 - Usa `--debug` para activar el modo depuración.
 - Usa `--export` para guardar los datasets anonimizados.
+
 #### **./PyARXaaS/anonymization_launcher.py**
+
 Automatiza la ejecución de la anonimización de datos usando PyARXaaS para múltiples combinaciones de parámetros de privacidad (*k*, *l*, *t*) y número de QIDs. Llama internamente a `qids_selection.py`, que selecciona los quasi-identificadores, aplica los modelos de privacidad y guarda los resultados anonimizados en archivos CSV. Permite ajustar los valores de *k-anonymity*, *l-diversity*, *t-closeness* y el número máximo de QIDs, así como activar el modo depuración.
 
 **Comando de uso:**
