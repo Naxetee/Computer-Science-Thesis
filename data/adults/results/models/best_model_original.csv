@@ -1,0 +1,2 @@
+dataset,best_model,best_params,metrics
+adults_original.csv,XGBClassifier,"{""learning_rate"": 0.1, ""max_depth"": 7, ""n_estimators"": 100}","{""accuracy"": 0.8704461942257218, ""precision"": 0.7982969664715274, ""recall"": 0.6369426751592356, ""f1_score"": 0.7085498346717053}"

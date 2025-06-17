@@ -1,0 +1,16 @@
+0,1,2,3
+Exec-managerial,Professional,White Collar,*
+Prof-specialty,Professional,White Collar,*
+Adm-clerical,Office Jobs,White Collar,*
+Tech-support,Office Jobs,White Collar,*
+Sales,Service Jobs,White Collar,*
+Protective-serv,Service Jobs,White Collar,*
+Other-service,Service Jobs,White Collar,*
+Machine-op-inspct,Manual Labor,Blue Collar,*
+Craft-repair,Manual Labor,Blue Collar,*
+Transport-moving,Manual Labor,Blue Collar,*
+Farming-fishing,Manual Labor,Blue Collar,*
+Handlers-cleaners,Low Wage Jobs,Blue Collar,*
+Priv-house-serv,Low Wage Jobs,Blue Collar,*
+Armed-Forces,Military,Other,*
+?,Unknown,Unknown,*

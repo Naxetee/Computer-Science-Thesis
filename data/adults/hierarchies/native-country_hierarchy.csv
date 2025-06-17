@@ -1,0 +1,43 @@
+0,1,2,3
+United-States,North America,America,*
+Canada,North America,America,*
+Mexico,North America,America,*
+Cuba,Latin America,America,*
+Jamaica,Latin America,America,*
+Puerto-Rico,Latin America,America,*
+Haiti,Latin America,America,*
+Dominican-Republic,Latin America,America,*
+Honduras,Latin America,America,*
+El-Salvador,Latin America,America,*
+Guatemala,Latin America,America,*
+Nicaragua,Latin America,America,*
+Columbia,Latin America,America,*
+Ecuador,Latin America,America,*
+Peru,Latin America,America,*
+England,Europe,Europe,*
+Germany,Europe,Europe,*
+France,Europe,Europe,*
+Poland,Europe,Europe,*
+China,Asia,Asia,*
+Japan,Asia,Asia,*
+India,Asia,Asia,*
+Iran,Asia,Asia,*
+Vietnam,Asia,Asia,*
+Philippines,Asia,Asia,*
+Thailand,Asia,Asia,*
+Taiwan,Asia,Asia,*
+South,Asia,Asia,*
+Scotland,Europe,Europe,*
+Portugal,Europe,Europe,*
+Italy,Europe,Europe,*
+Ireland,Europe,Europe,*
+Hungary,Europe,Europe,*
+Hong,Asia,Asia,*
+Greece,Europe,Europe,*
+Cambodia,Asia,Asia,*
+Laos,Asia,Asia,*
+Trinadad&Tobago,Latin America,America,*
+Yugoslavia,Europe,Europe,*
+Outlying-US(Guam-USVI-etc),North America,America,*
+Holand-Netherlands,Europe,Europe,*
+?,Unknown,Unknown,*
