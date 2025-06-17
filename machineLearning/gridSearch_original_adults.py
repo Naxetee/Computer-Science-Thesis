@@ -150,7 +150,7 @@ def get_best_model(input_path: str, output_path: str = '', save_results: bool = 
 if __name__ == "__main__":
     parser = argparse.ArgumentParser(description="Entrenamiento del modelo original con GridSearchCV")
     parser.add_argument('--input_path', type=str, default='./data/adults/preprocessed/original/adults_original.csv', help='Ruta del dataset CSV preprocesado')
-    parser.add_argument('--output_path', type=str, default='./data/adults/results/models/best_model_original.csv', help='Ruta de salida para guardar el mejor modelo')
+    parser.add_argument('--output_path', type=str, default='./data/adults/results/models/best_model_over_original.csv', help='Ruta de salida para guardar el mejor modelo')
     parser.add_argument('--save_results', action='store_true', help='Guardar resultados en un archivo CSV')
     parser.add_argument('--debug_comments', action='store_true', help='Imprimir comentarios de depuración')
 

@@ -135,7 +135,7 @@ def evaluate_model(model_path: str, datasets_path: str, original_dataset_path: s
 
 if __name__ == "__main__":
     parser = argparse.ArgumentParser(description="Evalúa un modelo en múltiples conjuntos de datos.")
-    parser.add_argument("--model_path", type=str, required=False, default="./data/adults/results/models/best_model_original.csv", help="Ruta al archivo del modelo entrenado (por defecto: mejor_modelo.csv).")
+    parser.add_argument("--model_path", type=str, required=False, default="./data/adults/results/models/best_model_over_original.csv", help="Ruta al archivo del modelo entrenado (por defecto: mejor_modelo.csv).")
     parser.add_argument("--datasets_path", type=str, required=False, default="./data/adults/preprocessed/", help="Ruta al directorio que contiene los conjuntos de datos (por defecto: datasets/).")
     parser.add_argument("--original_dataset_path", type=str, required=False, default="./data/adults/preprocessed/original/adults_original.csv", help="Ruta al dataset original (por defecto: dataset_original.csv).")
     parser.add_argument("--output_path", type=str, required=False, default="./data/adults/results/usability/usability_anonymized.csv", help="Ruta para guardar el archivo CSV con las métricas de evaluación (por defecto: metricas.csv).")

@@ -273,7 +273,7 @@ if __name__ == "__main__":
     parser.add_argument('--usability_results_path', type=str, default='./data/adults/results/usability/', help='Ruta a los resultados de usabilidad')
     parser.add_argument('--hier_path', type=str, default='./data/adults/hierarchies/', help='Ruta a las jerarquías')
     parser.add_argument('--original_dataset_path', type=str, default='./data/adults/original/adults_rounded.csv', help='Ruta al dataset original')
-    parser.add_argument('--best_model_path', type=str, default='./data/adults/results/models/best_model_original.csv', help='Ruta al mejor modelo')
+    parser.add_argument('--best_model_path', type=str, default='./data/adults/results/models/best_model_over_original.csv', help='Ruta al mejor modelo')
     parser.add_argument('--q', type=int, default=13, help='Número de QIDs a considerar para la anonimización')
     parser.add_argument('--debug_comments', action='store_true', help='Activar comentarios de depuración')
     args = parser.parse_args()
