@@ -1,7 +1,6 @@
 import os
 import pandas as pd
 from pyarxaas import ARXaaS, AttributeType, Dataset
-from pyarxaas.privacy_models import KAnonymity, LDiversityDistinct, TClosenessEqualDistance
 from itertools import combinations
 from typing import List, Dict, Tuple, Set
 
@@ -80,7 +79,7 @@ def iterateCombinations(
                 processed_qids_list.append(qids)
             return pd.read_csv(output_file), processed_qids_list
         else:
-            return pd.DataFrame(), set()
+            return pd.DataFrame(), []
 
     def calculate_risk_distance(re_id_risks : dict, 
                                 keys : List[str] = ['estimated_journalist_risk', 'estimated_prosecutor_risk', 'estimated_marketer_risk']
